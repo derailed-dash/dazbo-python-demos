@@ -40,6 +40,7 @@ coverage.xml
 .gitsecret/keys/random_seed
  
 # Random
+.*/
 .vscode
 *.log
 desktop.ini

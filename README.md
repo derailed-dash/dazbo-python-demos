@@ -12,4 +12,16 @@ If you don't know much about Jupyter notebooks, then I suggest you start with my
 - Several ways to run the notebooks
 - How to run your own - or someone else's notebooks (like the ones in this repo) - quickly and easily, _for free_ in [Google Colab](https://colab.research.google.com/).
 
+## Running Local Jupyter Lab Container
+
+You can use my `docker-compose-scipy-lab.yml` to run a local Docker container running a Jupyter SciPy lab container.
+
+```bash
+# To launch the container
+docker compose -f ./docker-compose-scipy-lab.yml up -d
+
+# To stop it
+docker compose -f ./docker-compose-scipy-lab.yml down
+```
+
 **This is work-in-progress.  Content coming soon!**
