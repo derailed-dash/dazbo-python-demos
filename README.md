@@ -12,7 +12,30 @@ If you don't know much about Jupyter notebooks, then I suggest you start with my
 - Several ways to run the notebooks
 - How to run your own - or someone else's notebooks (like the ones in this repo) - quickly and easily, _for free_ in [Google Colab](https://colab.research.google.com/).
 
-## Running Local Jupyter Lab Container
+## Demo List
+
+- youtube-demos.ipynb
+
+## Running the Jupyter Notebook Locally
+
+### Method 1 - Use a Python Virtual Env with Notebook Installed
+
+```bash
+py -m pip install --upgrade pip
+
+# Create virtual env, if you haven't already
+py -m venv .venv
+
+# Activate the venv
+./.venv/Scripts/activate
+
+# Install requirements - i.e. notebook
+py -m pip install -r requirements.txt
+```
+
+Now you can use your venv as your Jupyter kernel.
+
+### Method 2 - Running Local Jupyter Lab Container
 
 You can use my `docker-compose-scipy-lab.yml` to run a local Docker container running a Jupyter SciPy lab container.
 
