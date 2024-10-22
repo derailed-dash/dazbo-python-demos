@@ -14,7 +14,7 @@ If you don't know much about Jupyter notebooks, then I suggest you start with my
 
 ## Demo List
 
-- youtube-demos.ipynb
+**This is work-in-progress.  Content coming soon!**
 
 ## Running the Jupyter Notebook Locally
 
@@ -47,4 +47,3 @@ docker compose -f ./docker-compose-scipy-lab.yml up -d
 docker compose -f ./docker-compose-scipy-lab.yml down
 ```
 
-**This is work-in-progress.  Content coming soon!**
